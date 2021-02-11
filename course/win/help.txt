@@ -1,0 +1,5 @@
+For all .c files:
+Properties -> All Configurations -> C/C++ -> Advanced -> Compile as -> Compile as C++ Code
+
+For all but one executable (main should be defined only once):
+Properties -> All Configurations -> General -> Excluded from build -> Yes

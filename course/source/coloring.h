@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////////
+// @file coloring.h
+// @brief Definitions of functions related to colorings.
+////////////////////////////////////////////////////////////////
+
+#pragma once
+
+int find_n_coloring(const graph *G, int n);
+
+int chromatic_number(const graph *G);
+
+

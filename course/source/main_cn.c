@@ -1,0 +1,30 @@
+////////////////////////////////////////////////////////////////
+// @file main_cn.c
+// @brief A sample application.
+////////////////////////////////////////////////////////////////
+
+#include "graph.h"
+
+graph G;
+
+////////////////////////////////////////////////////////////////
+// Entry point for the application.
+////////////////////////////////////////////////////////////////
+int main(int argc, char* argv[]) {
+
+  int n = strtol(argv[1], 0, 10);
+
+  G.vertex_count = n;
+
+  int i, j;
+
+  for(i = 0; i < G.vertex_count - 1; ++i) {
+    add_edge(&G, i, i + 1);
+  }
+  add_edge(&G, G.vertex_count - 1, 0);
+
+  write_graph(&G);
+
+  return 0;
+}
+

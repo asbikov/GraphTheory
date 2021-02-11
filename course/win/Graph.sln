@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Graph", "Graph.vcxproj", "{2E03429A-337C-4BB7-B4CD-74CB08938778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C53FBED6-35B2-4B68-A023-3B2227827E5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E03429A-337C-4BB7-B4CD-74CB08938778}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E03429A-337C-4BB7-B4CD-74CB08938778}.Debug|Win32.Build.0 = Debug|Win32
+		{2E03429A-337C-4BB7-B4CD-74CB08938778}.Release|Win32.ActiveCfg = Release|Win32
+		{2E03429A-337C-4BB7-B4CD-74CB08938778}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
